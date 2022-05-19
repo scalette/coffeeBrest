@@ -17,6 +17,7 @@ const viewRouter = require('./routs/viewRoutes');
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorControl');
 
+// Start express app
 const app = express();
 
 app.set('view engine', 'pug');
